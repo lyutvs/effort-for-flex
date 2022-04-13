@@ -11,10 +11,5 @@ import javax.validation.constraints.NotNull
 @Getter
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener::class)
-abstract class BaseTimeEntity {
-
-    @CreatedDate
-    @NotNull
-    var createdAt: LocalDateTime = LocalDateTime.now()
-
+abstract class BaseTimeEntity(@CreatedDate @NotNull var createdAt: LocalDateTime = LocalDateTime.now()) {
 }

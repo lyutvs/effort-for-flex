@@ -12,6 +12,6 @@ abstract class BaseTimeIdEntity: BaseTimeEntity() {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    val id: Int? = null
+    val id: Long = 0
 
 }
