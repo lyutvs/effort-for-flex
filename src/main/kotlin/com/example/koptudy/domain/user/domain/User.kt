@@ -11,8 +11,10 @@ import org.hibernate.validator.constraints.Length
 import javax.persistence.Entity
 import javax.persistence.EnumType
 import javax.persistence.Enumerated
+import javax.persistence.Table
 import javax.validation.constraints.NotNull
 
+@Table(name = "`user`")
 @DynamicInsert
 @Entity
 class User (
