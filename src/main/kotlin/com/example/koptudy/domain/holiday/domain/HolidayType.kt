@@ -1,6 +1,5 @@
 package com.example.koptudy.domain.holiday.domain
 
-import com.example.koptudy.domain.holiday.domain.Holiday
 import org.hibernate.validator.constraints.Length
 import javax.persistence.FetchType
 import javax.persistence.JoinColumn
