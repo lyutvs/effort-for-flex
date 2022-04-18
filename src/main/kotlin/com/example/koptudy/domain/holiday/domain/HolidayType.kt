@@ -1,4 +1,4 @@
-package com.example.koptudy.domain.holiday
+package com.example.koptudy.domain.holiday.domain
 
 import com.example.koptudy.domain.holiday.domain.Holiday
 import org.hibernate.validator.constraints.Length
