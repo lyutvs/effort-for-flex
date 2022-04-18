@@ -9,7 +9,7 @@ class DefaultImage {
 
     companion object {
         const val USER_PROFILE_IMAGE = "'a'"
-        const val COMPANY_PROFILE_IMAGE = "'a'"
+        const val COMPANY_PROFILE_IMAGE = "'b'"
     }
 
 }
