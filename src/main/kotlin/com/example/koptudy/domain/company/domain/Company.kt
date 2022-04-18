@@ -1,12 +1,12 @@
 package com.example.koptudy.domain.company.domain
 
+import com.example.koptudy.domain.user.domain.User
 import com.example.koptudy.global.entity.BaseTimeIdEntity
 import com.example.koptudy.infrastructure.s3.DefaultImage
 import org.hibernate.annotations.ColumnDefault
 import org.hibernate.validator.constraints.Length
 import java.time.LocalDate
-import javax.persistence.Entity
-import javax.persistence.Table
+import javax.persistence.*
 import javax.validation.constraints.NotNull
 
 @Table(name = "`company`")
@@ -25,7 +25,11 @@ class Company(
 
     registrationNumber: String,
 
-    seal: String
+    seal: String,
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
+    var user: User
 
 ): BaseTimeIdEntity() {
 
