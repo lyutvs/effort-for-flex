@@ -2,7 +2,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     database: mysql
     open-in-view: false
 
