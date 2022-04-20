@@ -1,1 +1,13 @@
+spring:
 
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database: mysql
+    open-in-view: false
+
+  datasource:
+    url: jdbc:mysql://${DB_URL}:3306/${DB_NAME}?useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
+    username: ${DB_USER}
+    password: ${DB_PWD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
