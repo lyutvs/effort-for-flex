@@ -13,7 +13,7 @@
 * [Muttukttung-gamjachip](https://github.com/lyutvs/Muttukttung-gamjachip) 모든 내용 알고 있어야한다.
 * 꾸준히 준비하기.
 
-##준비됐지??
+## 준비됐지??
 
 ---
 > 기죽지 말자 [**[가보자고!]** 🫡](https://recruiting.flex.team/product-engineer-backend)
