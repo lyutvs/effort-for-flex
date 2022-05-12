@@ -15,7 +15,7 @@
 * [천천히 회사 정리 노션 채우기🫶](https://sehyoun05.notion.site/effort-for-flex-8784bc332e8d4abe89abb2171b1fdbca)
 * [포폴도 채우기🥹](https://sehyoun05.notion.site/Sehyoun-0b4e4c787c2b4f38a486b2dda09af621)
 
-##준비됐지??
+## 준비됐지??
 
 ---
 > 기죽지 말자 [**[가보자고!]** 🫡](https://recruiting.flex.team/product-engineer-backend)
